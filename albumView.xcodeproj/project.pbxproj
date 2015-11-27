@@ -13,6 +13,10 @@
 		AADD8D551B4C5C27000F29F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADD8D541B4C5C27000F29F7 /* Images.xcassets */; };
 		AADD8D581B4C5C27000F29F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADD8D561B4C5C27000F29F7 /* LaunchScreen.xib */; };
 		AADD8D641B4C5C27000F29F7 /* albumViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD8D631B4C5C27000F29F7 /* albumViewTests.swift */; };
+		AADD8D711B4C5C53000F29F7 /* Radiohead2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AADD8D6D1B4C5C53000F29F7 /* Radiohead2.jpg */; };
+		AADD8D721B4C5C53000F29F7 /* LinkinPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AADD8D6E1B4C5C53000F29F7 /* LinkinPark.jpg */; };
+		AADD8D731B4C5C53000F29F7 /* Radiohead1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AADD8D6F1B4C5C53000F29F7 /* Radiohead1.jpg */; };
+		AADD8D741B4C5C53000F29F7 /* Interpol.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AADD8D701B4C5C53000F29F7 /* Interpol.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		AADD8D5D1B4C5C27000F29F7 /* albumViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = albumViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADD8D621B4C5C27000F29F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AADD8D631B4C5C27000F29F7 /* albumViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumViewTests.swift; sourceTree = "<group>"; };
+		AADD8D6D1B4C5C53000F29F7 /* Radiohead2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Radiohead2.jpg; sourceTree = "<group>"; };
+		AADD8D6E1B4C5C53000F29F7 /* LinkinPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LinkinPark.jpg; sourceTree = "<group>"; };
+		AADD8D6F1B4C5C53000F29F7 /* Radiohead1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Radiohead1.jpg; sourceTree = "<group>"; };
+		AADD8D701B4C5C53000F29F7 /* Interpol.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Interpol.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 		AADD8D3F1B4C5C27000F29F7 = {
 			isa = PBXGroup;
 			children = (
+				AADD8D6D1B4C5C53000F29F7 /* Radiohead2.jpg */,
+				AADD8D6E1B4C5C53000F29F7 /* LinkinPark.jpg */,
+				AADD8D6F1B4C5C53000F29F7 /* Radiohead1.jpg */,
+				AADD8D701B4C5C53000F29F7 /* Interpol.jpeg */,
 				AADD8D4A1B4C5C27000F29F7 /* albumView */,
 				AADD8D601B4C5C27000F29F7 /* albumViewTests */,
 				AADD8D491B4C5C27000F29F7 /* Products */,
@@ -156,7 +168,8 @@
 		AADD8D401B4C5C27000F29F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Aleph Melo";
 				TargetAttributes = {
 					AADD8D471B4C5C27000F29F7 = {
@@ -192,7 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADD8D711B4C5C53000F29F7 /* Radiohead2.jpg in Resources */,
+				AADD8D731B4C5C53000F29F7 /* Radiohead1.jpg in Resources */,
+				AADD8D721B4C5C53000F29F7 /* LinkinPark.jpg in Resources */,
 				AADD8D531B4C5C27000F29F7 /* Main.storyboard in Resources */,
+				AADD8D741B4C5C53000F29F7 /* Interpol.jpeg in Resources */,
 				AADD8D581B4C5C27000F29F7 /* LaunchScreen.xib in Resources */,
 				AADD8D551B4C5C27000F29F7 /* Images.xcassets in Resources */,
 			);
@@ -275,6 +292,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -289,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -338,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = albumView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alephmelo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -348,6 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = albumView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alephmelo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -366,6 +386,7 @@
 				);
 				INFOPLIST_FILE = albumViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alephmelo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/albumView.app/albumView";
 			};
@@ -381,6 +402,7 @@
 				);
 				INFOPLIST_FILE = albumViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alephmelo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/albumView.app/albumView";
 			};
@@ -405,6 +427,7 @@
 				AADD8D691B4C5C27000F29F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AADD8D6A1B4C5C27000F29F7 /* Build configuration list for PBXNativeTarget "albumViewTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +436,7 @@
 				AADD8D6C1B4C5C27000F29F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
